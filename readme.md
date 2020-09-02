@@ -62,8 +62,8 @@
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/sc1.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/sc1.png, images/sc2.png)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/sc2.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/schets.png)
