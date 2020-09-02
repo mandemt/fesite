@@ -67,4 +67,5 @@
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/schets.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/schets1.jpeg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/schets2.jpeg)
