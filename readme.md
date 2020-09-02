@@ -1,8 +1,6 @@
 # Procesverslag
 **Auteur:** -jouw naam-
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
 
 
 ## Bronnenlijst
@@ -56,11 +54,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:** Rood, ik heb voldoendes gehaald voor internetstandaarden en Inleiding programmeren en denk dat ik voldoende kennis heb over het coderen.
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** Responsive
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** shop.lego.com
 
 **Screenshot(s):**
 
