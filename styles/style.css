@@ -1,6 +1,8 @@
 *, html {
+	font-family:'Avenir' ;
     margin:0;
     padding:0;  
+
 }
 nav ul{
 	position:fixed;
@@ -31,6 +33,8 @@ max-height:100px;
 }
 body{
 	margin:0; padding:0;
+	height:500%;
+overflow:scroll;
 
 }
 section{
@@ -57,22 +61,36 @@ section img:nth-of-type(2){
 article{
 	display:flex;
 	flex-wrap:wrap;
-		background-color:blue;
+	background-color:blue;
+
+	
 
 }
 article img{
 	width:100%;
-	background-color:blue;
+	margin:0;
 }
 article p{
+text-align:center;
 	font-size:3em;
 	color:white;
-	padding:30px;
+	margin:0 35%;
+
+
+
 }
 article button{
 	background-color:white;
 	border-radius:10%;
 	width:20%;
 	height:80px;
-	margin-top:30px;
+		margin:100px auto;
+
+
+
+}
+table{
+	font-size:3em;
+	width:100%;
+	margin-bottom:200px;
 }
