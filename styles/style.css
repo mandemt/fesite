@@ -71,15 +71,18 @@ article{
 
 }
 article img{
-	
-
+	width:100%;
+}
+article h1{
+	font-size:3em;
+	color:white;
+	margin:auto;
 }
 article p{
 text-align:center;
-	font-size:3em;
+	font-size:2em;
 	color:white;
-	margin:0 35%;
-
+	margin:auto;
 
 
 }
@@ -88,10 +91,31 @@ article button{
 	border-radius:10%;
 	width:20%;
 	height:80px;
-		margin:100px auto;
+	margin:3em auto;
+	}
+article a {
+	text-decoration:none;
+	font-size:3em;
+	color:black;
+}
+#productplaatje{
+	width:50%;
+	margin:3em auto;
+	background-color:white;
 
-
-
+}
+#product{
+	background-color:white;
+}
+#product img:first-of-type{
+	position:absolute;
+	right:3em;
+	width:3em;
+}
+#product h1{
+	color:black;
+	margin-left:2em;
+}
 }
 table{
 	font-size:3em;
