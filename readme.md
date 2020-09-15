@@ -44,8 +44,8 @@
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/sc4.png)
 ### Agenda voor meeting
 
--github laten bekijken voor anderen, andere sites bekijken, beginnen met pagina 2.-
--flexbox oefenen, javascript voor slideshow maken-
+github laten bekijken voor anderen, andere sites bekijken, beginnen met pagina 2.
+flexbox oefenen, javascript voor slideshow maken
 
 ### Verslag van meeting
 
