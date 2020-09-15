@@ -62,7 +62,7 @@ section img:nth-of-type(2){
 
 
 article{
-	width:100%;
+
 	display:flex;
 	flex-direction:column;
 	background-color:blue;
@@ -71,7 +71,7 @@ article{
 
 }
 article img{
-	width:100%;
+	
 
 }
 article p{
