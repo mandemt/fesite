@@ -40,7 +40,7 @@
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/sc3.png)
+![voortgang pagina 1](images/sc3.png)
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/sc4.png)
 ### Agenda voor meeting
 
