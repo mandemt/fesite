@@ -40,10 +40,8 @@
 
 **Screenshot(s):**
 
-(images/sc3.png)
-(images/sc4.png)
-
-
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/sc3.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/sc4.png)
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
