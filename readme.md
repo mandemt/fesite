@@ -4,8 +4,8 @@
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
+1. shop.lego.com
+2. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 3. -...-
 
 
@@ -40,7 +40,9 @@
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+(images/sc3.png)
+(images/sc4.png)
+
 
 ### Agenda voor meeting
 
