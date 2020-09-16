@@ -36,7 +36,10 @@
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik kreeg als tip dat ik beter kon beginnen met de css goed maken, terwijl ik wilde beginnen met
+javascript omdat ik dat het lastigst vond.
+Nu vind ik het inderdaad handiger om eerst het makkelijke werk te verrichten, zodat ik in ieder geval
+iets heb om te laten zien.
 
 **Screenshot(s):**
 
