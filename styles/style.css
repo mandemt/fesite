@@ -18,6 +18,10 @@ nav ul{
 	
 
 }
+/*header{
+	height:3em;
+	margin:0;
+}*/
 li:first-of-type{
 	margin-right:auto;
 	margin-left:10%;
@@ -44,7 +48,7 @@ section{
 	justify-content: space-around;
 	text-align:center;
 	background-color:lightgrey;
-	height:100px;
+	height:120px;
 
 }
 section h2{
