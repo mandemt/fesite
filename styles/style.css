@@ -82,6 +82,7 @@ article{
 
 }
 article img{
+
 	width:100%;
 }
 article h1{
@@ -114,6 +115,7 @@ article a {
 article a img{
 	height:60%;
 	margin:0;
+	margin-top:10px;
 }
 article a p{
 	margin:0;
