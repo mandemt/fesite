@@ -20,6 +20,14 @@ nav ul{
 	border-bottom:2px solid rgb(255, 207, 0)
 
 }
+nav ol{
+	position:fixed;
+	background-color:white;
+
+}
+nav ol li{
+	color:black;
+}
 nav img{
 	height:3rem;
 }

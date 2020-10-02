@@ -28,7 +28,17 @@
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+agenda:
+Binnen het groepje is hulp nodig voor:
+Javascript slider
+vraag over de propertie; position fixed & automatische transities van afbeeldingen
+border menu vraag
+vraag over mediaquery
+vraag over js propertie
+object-fit
+
+
+
 
 
 
