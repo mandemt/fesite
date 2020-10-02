@@ -12,7 +12,7 @@ html,*{
 
 nav ul{
 
-	width:150%;
+	right:0;
 	display:flex;
 
 	list-style:none;
@@ -63,7 +63,7 @@ nav li:nth-of-type(3),nav li:nth-of-type(4),nav li:nth-of-type(5), nav li:nth-of
 }
 
 section{
-	width:170%;
+	width:100%;
 	margin-top:-4rem;
 
 	max-width:150%;
@@ -87,13 +87,14 @@ section a{
 	text-decoration:none;
 }
 main{
-	width:170%;
+	width:100%;
 	min-height:90vh;
 	background-color:black;
 	color:white;
 	text-align:center;
 }
 main img{
+	width:100%;
 	object-fit:none;
 	object-position:80% 20%;
 	max-width:100%;
@@ -115,7 +116,22 @@ main a p{
 	border-radius:.5em ;
 
 }
-@media(min-width:400px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media(min-width:400px){
 	main{
 		display:grid;
 		grid-template-columns:1fr 1fr;
@@ -159,7 +175,7 @@ main img{
 	main img{
 		
 	grid-row:1;
-	grid-column: 1 / 4;
+	grid-column: 1 / 2;
 
 
 	object-fit:cover;	
@@ -206,3 +222,4 @@ ol li{
 
 
 
+*/
