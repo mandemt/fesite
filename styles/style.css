@@ -21,15 +21,22 @@ nav ul{
 
 }
 nav ol{
+	display:flex;
+	flex-direction:column;
+	margin-top:-10px;
+	width:100%;
 	position:fixed;
+	top:0;
 	background-color:white;
 
 }
 nav ol li{
+		list-style-type:none;
+
 	color:black;
 }
 nav img{
-	height:3rem;
+	height:2rem;
 }
 nav li{
 	margin:.5em;
@@ -140,6 +147,7 @@ main{
 	grid-template-rows: 50vh auto;
 }
 main img{
+	height:300px;
 	grid-row: 1 ;
 	grid-column:1 / 4;
 }
