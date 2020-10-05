@@ -1,16 +1,20 @@
-// JavaScript Document
-console.log('ho')
-var menuKnop = document.querySelector('#open');
-var menu = document.querySelector('nav ul');
-var sluitKnop = document.querySelector('#dicht');
+var openKnop = document.querySelector('#menuknop');
+var menu = document.querySelector('#menu');
+var sluitKnop = document.querySelector('#dichtknop');
 
-function openklappen (){
-	menu.hidden = false
+
+openKnop.addEventListener('click', sluiten);
+sluitKnop.addEventListener('click', openen);
+
+function sluiten() {
+	menu.classList.remove('open')
+	menu.classList.add('dicht');
+	
+}
+function openen() {
+	menu.classList.remove('dicht');
+	menu.classList.add('open');
 }
 
-function dichtklappen(){
-	menu.hidden = true
-}
-
-menuKnop.addEventListener('click', openklappen);
-sluitKnop.addEventListener('click', dichtklappen);
+openKnop.addEventListener('click', openen);
+sluitKnop.addEventListener('click', sluiten);

@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		  <link rel="stylesheet" href="styles/style.css">
-		  <script src="scripts/script.js"></script>
 
 
 	<title>LEGO winkel</title>
@@ -12,8 +11,8 @@
 <body>
 	<header>
 		<nav>
-			<ul>
-				<li><button id="open"><img src="images/hamburger.svg" alt="menu"></button><p>MENU</p></li>
+			<ul> 
+				<li><button id="menuknop" ><img src="images/hamburger.svg" alt="menu"></button><p>MENU</p></li>
 				<li><img src="images/logo.png" alt="logo"></li>
 				<li><img src="images/zoeken.png" alt="zoeken"></li>
 				<li><img src="images/hoofd.png" alt="account"></li>
@@ -21,11 +20,12 @@
 				<li><img src="images/tas.png" alt="winkelmand"></li>
 			</ul>
 		
-		<ol>
-			<li><p>Menu</p><button id="dicht">sluiten</button></li>
-			<li>home</li>
-			<li>thema's</li>
-			<li>aanbiedingen</li>
+		<ol id="menu" >
+		<!-- 	<li><p>Menu</p></li> -->
+			<li><button id="dichtknop">X</button></li>
+			<li><p>home</p></li>
+			<li><p>thema's</p></li>
+			<li><p>aanbiedingen</p></li>
 
 		</ol>
 		</nav>
@@ -54,5 +54,7 @@
     	<li><button><img src="" alt="rechtspijl"></button></li>
     </ol>
 </main>
+		  <script src="scripts/script.js"></script>
+
 </body>
 </html>

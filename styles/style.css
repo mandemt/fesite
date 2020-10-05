@@ -14,31 +14,61 @@ nav ul{
 
 	right:0;
 	display:flex;
-
+	
 	list-style:none;
 	margin-bottom:4rem;
 	border-bottom:2px solid rgb(255, 207, 0)
 
 }
+.dicht{
+	right:100rem;
+	transition:1s;
+}
+.open{
+	right:0;
+	transition:1s;
+}
 nav ol{
-	display:flex;
-	flex-direction:column;
-	margin-top:-10px;
-	width:100%;
-	position:fixed;
-	top:0;
-	background-color:white;
 
+	position:fixed;
+	background-color:white;
+	width:100%;
+	margin:0;
+	padding:0;
+
+}
+nav ol li:first-of-type{
+	margin-top:5em;
 }
 nav ol li{
-		list-style-type:none;
-
+	padding-left:1em;
+	width:100%;
+	border-bottom:1px solid rgb(224, 224, 224);
 	color:black;
+	list-style-type:none;
+	padding-right:100%;
+	
+	/*background-color:blue;*/
+	
+
+
 }
+nav ol button{
+	border-radius:0;
+	height:3em;
+	flex-wrap:nowrap;
+	top:2em;
+	position:absolute;
+	right:0;
+	font-size:1em;
+	padding:1em;
+	border:2px solid black;
+}
+
 nav img{
 	height:2rem;
 }
-nav li{
+nav ul li{
 	margin:.5em;
 	/*border:1px solid green;*/
 	height:3rem;
@@ -46,19 +76,25 @@ nav li{
 	}
 
 
-button{
+nav ul button{
+	position:relative;
 	margin-left:-2rem;
 	border:none;
 	background-color:white;
 	font-size:.5em;
 
 }
-nav p{
+nav ul p{
+	color:grey;
+	top:3em;
+	position:absolute;
+	z-index:1000;
 	margin-left:-2rem;
 }
 
-button img{
+nav ul button img{
 	width:2rem;
+	
 	height:.8rem;
 
 
@@ -254,7 +290,7 @@ ol{
 	display:flex;
 
 }
-ol li{
+main ol li{
 
 
 	list-style: square;
