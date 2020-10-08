@@ -1,3 +1,4 @@
+console.log('yo')
 var openKnop = document.querySelector('#menuknop');
 var menu = document.querySelector('#menu');
 var sluitKnop = document.querySelector('#dichtknop');
