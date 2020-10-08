@@ -10,7 +10,7 @@ sluitKnop.addEventListener('click', openen);
 function sluiten() {
 	menu.classList.remove('open')
 	menu.classList.add('dicht');
-	
+	console.log
 }
 function openen() {
 	menu.classList.remove('dicht');
