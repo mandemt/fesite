@@ -6,61 +6,71 @@ html,*{
 	body{
 	margin:0; padding:0;
 	font-family: 'Roboto', sans-serif;
-
-
 }
-nav{
-	width:100%;
-}
-nav ul{
 
 
+nav ul{ 
 	display:flex;
-	
 	list-style:none;
 	margin-bottom:4rem;
 	border-bottom:2px solid rgb(255, 207, 0);
-	
-
-}
-
-nav ul li{
-	margin:.5em;
-	/*border:1px solid green;*/
-	height:3rem;
-	width:3rem;
 	}
 
-nav ul li:nth-of-type(2){
-	margin-left:1em;
-	margin-right:auto;
-}
-nav ul button{
-	position:relative;
-	margin-left:-2rem;
-	border:none;
-	background-color:white;
-	font-size:.5em;
-
-}
 
 nav ul p{
+	margin-top:0;
 	color:grey;
 	top:3em;
 	position:absolute;
 	z-index:1000;
 	margin-left:-2rem;
-}
+	}
 
+nav ul li:nth-of-type(2){
+	margin-right:auto;
+	}
+
+nav ul button{
+	margin-left:-2rem;
+	border:none;
+	background-color:white;
+	}
 nav ul button img{
 	width:2rem;
-	
 	height:.8rem;
-
-
 }
-li p{
-	margin-top:0;
+nav ul li{
+	margin:.5em;
+	height:3rem;
+	width:3rem;
+	}
+
+
+
+
+nav ol{
+	z-index:1000;
+
+	position:fixed;
+	right:100%;
+
+	margin:0; padding:0;
+	height:100vh;
+	width:100%;
+
+	
+	display:grid;
+	grid-template-rows:3em 3em 3em 3em;
+	grid-template-columns:1fr 1fr auto;
+	
+	list-style-type:none;
+	overflow:scroll;
+	background-color:white;
+	
+
+	
+
+
 }
 .open{
 		right:0;
@@ -70,25 +80,8 @@ li p{
 		right:100%;
 		transition:1s;
 }
-nav ol{
-	display:grid;
-	grid-template-rows:3em 3em 3em 3em;
-	grid-template-columns:1fr 1fr auto;
-	margin:0;
-	list-style-type:none;
-	padding:0;
-	position:fixed;
-	height:110vh;
-
-	overflow:scroll;
-	width:100%;
-	background-color:white;
-	z-index:1000;
-
-	right:100%;
 
 
-}
 nav ol li{
 	border-bottom:1px solid rgb(224, 224, 224);
 display:flex;
@@ -145,7 +138,7 @@ nav img{
 
 
 
-section{
+header section{
 	width:100%;
 	margin-top:-4rem;
 	max-width:100%;
@@ -154,17 +147,17 @@ section{
 
 
 }
-section img{
+header section img{
 	width:84px;
 	height:48px;
 }
-section p{
+header section p{
 	margin-right:2rem;
 
 	text-align:right;
 	
 }
-section a{
+header section a{
 	color:#006db7;
 	text-decoration:none;
 }
@@ -214,18 +207,39 @@ main a img{
 	width:2em;
 	height:2em;
 
-}
 
+}
+main section{
+	background-color:white;
+	display:flex;
+
+	justify-content:space-between;
+	align-items:center;
+}
 main ol{
 	margin: 0 auto;
-	
+	padding:0;
 	display:flex;
 	justify-content:center;
 		background-color:white;
-	
-	
 
 }
+main section button{
+	background-image: url(../images/pijl.svg);
+	height:3em;
+	width:3em;
+}
+/*main ol button:nth-of-type(1){
+	margin-right:15em;
+}
+main ol button:nth-of-type(2){
+	margin-left:15em;
+}*/
+main section img{
+	height:3em;
+	width:3em;
+}
+
 
 
 main ol li{
