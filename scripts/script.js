@@ -1,5 +1,5 @@
 console.log('yo')
-var openKnop = document.querySelector('#menuknop');
+var openKnop = document.querySelector('nav ul li button:first-of-type');
 var menu = document.querySelector('#menu');
 var sluitKnop = document.querySelector('#dichtknop');
 
