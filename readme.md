@@ -16,10 +16,10 @@ Ik vond het javascript erg lastig en heb dus minder compacte code gebruikt zodat
 Ook het werken met grid, wat nieuw voor mij was vond ik een uitdaging maar het is naar mijn idee beter gegaan dan ik vooraf had verwacht.
 **Screenshot(s):**
 
-(images/sc5.png)
-(images/sc6.png)
-(images/sc7.png)
-(images/sc8.png)
+! [(images/sc5.png)]
+!(images/sc6.png)
+!(images/sc7.png)
+!(images/sc8.png)
 
 
 
