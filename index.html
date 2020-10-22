@@ -10,10 +10,10 @@
 </head>
 <body>
 	<header>
-		<nav>
+		<nav> 
 			<ul> 
 				<li><button id="menuknop" ><img src="images/hamburger.svg" alt="menu"></button><p>MENU</p></li>
-				<li><img src="images/logo.png" alt="logo"></li>
+				<li><a href="index.html"><img src="images/logo.png" alt="logo"></a></li>
 			
 				<li><img src="images/zoeken.png" alt="zoeken"></li>
 				<li><img src="images/hoofd.png" alt="account"></li>
@@ -25,7 +25,7 @@
 		<ol id="menu" >
 			<li><p>MENU</p></li>
 			<li><button id="dichtknop">X</button></li>
-			<div>
+			
 			<li><p>STARTPAGINA</p></li>
 			<li><p>THEMA'S</p></li>
 			<li><p>WINKELEN OP</p></li>
@@ -41,7 +41,7 @@
 			<li><p>VIP</p></li>
 			<li><p>store zoeken</p></li>
 			<li><p>LEGO LIFE</p></li>
-			</div>
+			
 
 		</ol>
 		</nav>
@@ -50,30 +50,20 @@
 
 	<section>
 		<img src="images/bezorging.png" alt="bezorger">
-		<p>GRATIS bezorging bij elke bestelling vanaf €55!
-		<a href="">Meer info</a></p>
+		<h3>GRATIS bezorging bij elke bestelling vanaf €55!
+		<a href="">Meer info</a></h3>
 	</section>
 </header>
 
 <main>
-	<article>
+	<article id="eerste">
 	<img src="images/achtergrond.jpeg" alt="kerstaanbieding">
     <h3>Vervroegde toegang voor VIP's</h3>
     <p>Voeg het nieuwe Elf Clubhuis toe aan je collectie, vanaf 23-09-2020</p>
-    <a href=""><p>Nu winkelen </p><img src="images/pijl.svg" alt="pijl"></a>
+    <a href="product.html"><p>Nu winkelen </p><img src="images/pijl.svg" alt="pijl"></a>
     <a href=""><p>Registreren </p><img src="images/pijl.svg" alt="pijl"></a>
    
-    <section>
-    	
-    	<button><img src="images/pijl.svg" alt="pijllinks"></button>
-    <ol>
-    	<li></li>
-    	<li></li>
-    	
-    </ol>
-    	<button><img src="images/pijl.svg" alt="pijlrechts"></button>
-
-    </section>
+    
     </article>
     <table>
     	<tr>
@@ -90,22 +80,33 @@
     <div>
 	<h1>Cadeaus voor halloween</h1>
     <article>
-    
+   
     	<img src="images/brickhead.jpeg" alt="brickhead halloween editie">
-    	<h2>Wek een legende tot leven</h2>
+    	 <h2>Wek een legende tot leven</h2>
     	<p>Voeg de nieuwe frankenstein brickhead aan je collectie toe.</p>
     	<a href="">Nu winkelen</a>
     </article>
+
     <article>
-    	<img src="images/plezier.jpeg" alt="afbeelding halloween actie">
+    	
+    			<img src="images/plezier.jpeg" alt="halloween aanbiedingen"> 
     	    	<h2>Griezelig veel plezier</h2>
     	    	<p>voeg nu toe aan de collectie.</p>
-    	    	<a href="">Nu winkelen</a>
+    	    	<a href="product.html">Nu winkelen</a>
  
 
     </article>
     </div>
 </main>
+<footer>
+	<article>
+		<h2>Schrijf je in voor de nieuwsbrief:</h2>
+		<form action="subscribe.php">
+		<input type="email" name="email"/>
+		<input type="submit" value="versturen">
+		</form>
+	</article>
+</footer>
 		  <script src="scripts/script.js"></script>
 
 </body>
