@@ -6,23 +6,28 @@
 ## Bronnenlijst
 1. shop.lego.com
 2. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-3. -...-
+3. https://www.w3schools.com/css/css_grid.asp
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
-
+Ik vond het javascript erg lastig en heb dus minder compacte code gebruikt zodat ik uiteindelijk toch een gewenst resultaat had.
+Ook het werken met grid, wat nieuw voor mij was vond ik een uitdaging maar het is naar mijn idee beter gegaan dan ik vooraf had verwacht.
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+(images/sc5.png)
+(images/sc6.png)
+(images/sc7.png)
+(images/sc8.png)
 
 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+agenda: Javascript slider, css slider
+
+uiteindelijk heb ik de slider weggelaten omdat de originele site dat ook niet heeft gebruikt en ik de tijd liever wilde besteden aan het responsive maken van de site.
 
 
 
@@ -62,7 +67,7 @@ flexbox oefenen, javascript voor slideshow maken
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Ik kon het beste beginnen met de css. Als je begint met het makkelijke onderdeel loop je minder snel vast en heb je meer resultaat als je uiteindelijk ergens tegenaan loopt.
 
 
 
