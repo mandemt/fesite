@@ -25,7 +25,10 @@ li{
 	margin-right:10%;
 	background-color:white;
 }
-
+nav img{
+	height:100px;
+max-height:100px;
+}
 body{
 	margin:0; padding:0;
 

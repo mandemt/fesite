@@ -1,97 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+	<html lang="nl">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-		  <link rel="stylesheet" href="styles/style.css">
-
-
-	<title>Product: Wegisweg</title>
+	 <link rel="stylesheet" href="style.css">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LEGO shop - Home</title>
 </head>
 <body>
-	<header>
-		<nav> 
-			<ul> 
-				<li><button><img src="images/hamburger.svg" alt="menu"></button><p>MENU</p></li>
-				<li><a href="index.html"><img src="images/logo.png" alt="logo"></a></li>
-			
-				<li><img src="images/zoeken.png" alt="zoeken"></li>
-				<li><img src="images/hoofd.png" alt="account"></li>
-				<li><img src="images/hartje.png" alt="wensenlijst">0</li>
-				<li><img src="images/tas.png" alt="winkelmand">1</li>
-				
+
+<nav> <!-- dit is de navigatiebalk met alle elementen die erbij horen. -->
+	
+		<ul>  <!-- dit is het overlappende menu -->
+			<li>menu</li>
+			<li><button>X</button></li>
+			<li>startpagina</li>
+			<li>thema's</li>				
+			<li>winkelen op</li>
+			<li>belangstelling</li>
+			<li>aanbiedingen</li>
+			<li>exclusieve items</li>
+			<li>ondersteuning</li>
+			<li><button></button>zoeken</li>
+			<li><button></button>account</li>
+			<li><button></button>favorieten</li>
+			<li><button></button>winkelmand</li>
+			<li><button></button>Regio wijzigen</li>
+			<li><button></button>Over ons</li>
+			<li><button></button>VIP</li>
+			<li><button></button>Winkel zoeken</li>
+
 			</ul>
+	
+	<ul> <!-- dit is de navigatiebalk die vanaf het begin zichtbaar is bovenin -->
+			<li><button> <img src="images/hamburger.svg" alt="menu"> </button><h2>menu</h2></li>
+			<li><button><img src="images/logo.png" alt="logo"></button></li>
+			<li><button><img src="images/zoeken.svg" alt="zoeken"></button><p>zoeken</p></li>
+			<li><button><img src="images/hoofd.png" alt="account"></button><p>account</p></li>
+			<li><button>0<img src="images/hartje.png" alt="favorieten"></button><p>favorieten</p></li>
+			<li><button>0<img src="images/tas.png" alt="winkeltas"></button><p>winkelmand</p></li>
+	</ul>
+</nav>
+	<header> <!-- informatie over aankoop -->
+			
+		<ol>
+			
+			<li><img src="images/bezorging.png" alt="Mario cadeau">GRATIS LEGO Super Mario cadeau bij een aankoop!* <a href="">Nu winkelen</a></li>
+			
 		
-		<ol id="menu" >
-			<li><p>MENU</p></li>
-			<li><button id="dichtknop">X</button></li>
-			
-			<li><p>STARTPAGINA</p></li>
-			<li><p>THEMA'S</p></li>
-			<li><p>WINKELEN OP</p></li>
-			<li><p>BELANGSTELLING</p></li>
-			<li><p>AANBIEDINGEN EN UITVERKOOP</p></li>
-			<li><p>EXCLUSIEVE ITEMS</p></li>
-			<li><p>ONDERSTEUNING</p></li>
-			<li><img src="images/hoofd.png" alt="Mijn accoiunt"><p>Mijn account</p></li>
-			<li><img src="images/hartje.png" alt="Mijn verlanglijst"><p>Mijn verlanglijst</p></li>
-			<li><img src="images/tas.png" alt=""><p>Mijn tas</p></li>
-			<li><p>Regio wijzigen</p></li>
-			<li><p>Over ons</p></li>
-			<li><p>VIP</p></li>
-			<li><p>store zoeken</p></li>
-			<li><p>LEGO LIFE</p></li>
-			
 
 		</ol>
-		</nav>
+			
 	</header>
 
-<header>
-	<section>
-		<img src="images/bezorging.png" alt="bezorger">
-		<h3>GRATIS bezorging bij elke bestelling vanaf €55!
-		<a href="">Meer info</a></h3>
-	</section>
-</header>
-<main>
-	<section class="product">
-		<img src="images/wegisweg1.png">
-		<button><img src="images/hartrood.svg" alt="Toevoegen aan favoriet"></button>
-		<img src="images/hartrood.svg" alt="Toevoegen aan favoriet">
-		<button><img src="images/groter.png" alt="Afbeelding vergroten"></button>
-		<ol>
-			<li><img src="images/wegisweg1.jpeg" alt=""></li>
-			<li><img src="images/wegisweg2.jpeg" alt=""></li>
-			<li><img src="images/wegisweg3.jpeg" alt=""></li>
-			<li><img src="images/wegisweg4.jpeg" alt=""></li>
-			<li><img src="images/wegisweg5.jpeg" alt=""></li>
-		</ol>
-		<form action="">
-			<input TYPE="NUMBER" min="1" max="3" value="1" required="required">
-			<input type="submit" name="versturen" id="">
-		</form>
-		
-		<article>
-			<h1>De wegisweg</h1>
-			<h2>399,99 euro</h2>
-		<p>Nu beschikbaar</p>
+<article id="product">
+	<h1>Wegisweg</h1>
+	<button><img src="images/hartrood.svg" alt=""></button>
 
-		</article>
-	</section>
-</main>
+	<img src="images/wegisweg1.png" alt="" id="fotogroot">
+	<ul>
+		<li><img src="images/wegisweg1.png" alt=""></li>
+		<li><img src="images/wegisweg2.png" alt=""></li>
+		<li><img src="images/wegisweg3.png" alt=""></li>
+	</ul>
+</article>
 
-<footer>
-	<article>
-		<h2>Schrijf je in voor de nieuwsbrief:</h2>
-		
-		<form action="subscribe.php">
-			<input type="email" name="email"/>
-			<input type="submit" value="versturen">
+
+
+	<footer>   
+		<section>
+			<h2>Hulp nodig?</h2>
+			<p>Onze toegewijde LEGO experts zijn er om je te helpen</p>
+			<img src="images/envelop.svg" alt=""><a href="">Contact opnemen</a>
+		</section>
+
+		<section>
+			<h2>Officiële LEGO garantie</h2>
+			<ul>
+				<li><img src="images/helpdesk.png" alt=""><p>GRATIS bezorging bij bestellingen van meer dan € 55! Het hele jaar door</p></li>
+
+				<li><img src="images/bezorgerrond.png" alt=""><p>Mis je stenen of instructies? Laat het ons weten en we bezorgen ze</p></li>
+			</ul>
+		</section>
+
+		<form action="subscribe">
+		<h3>Abonneren op e-mails van de LEGO winkel</h3>
+		<input type="email" name="email" required="required">
+		<input type="submit" name="aanmelden">
 		</form>
-	</article>
-</footer>
-		  <script src="scripts/script.js"></script>
+	</footer>
 
 </body>
+<script src="script.js"></script>
 </html>
