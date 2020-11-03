@@ -32,9 +32,9 @@ li{
 	margin-right:10%;
 	background-color:white;
 }
-nav img{
-	height:100px;
-max-height:100px;
+nav img:first-of-type{
+	height:2em;
+
 }
 body{
 	margin:0; padding:0;
