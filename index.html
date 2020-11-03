@@ -1,68 +1,127 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
-	<title>HTML breakdown</title>
-	<link rel="stylesheet" href="styles/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="styles/style.css">
 
+
+	<title>LEGO shop: Home</title>
 </head>
-
-
-	
 <body>
 	<header>
-		
-	<nav>
-		<ul>
-			<li>
-				<img src="images/logo.svg" alt="logo">
-			</li>
-			<li>
-				<img src="images/zoeken.svg" alt="zoekknop">
-			</li>
-			<li>
-				<img src="images/legohoofd.svg" alt="account">	
-			</li>
+		<nav> 
+			<ul> 
+				<li>
+					<button>
+						<img src="images/hamburger.svg" alt="menu">
+					</button>
+					<p>MENU</p>
+				</li>
+				<li>
+					<a href="index.html">
+						<img src="images/logo.png" alt="logo">
+					</a>
+				</li>
 			
-		</ul>
+				<li>
+					<img src="images/zoeken.png" alt="zoeken">
+				</li>
+				<li>
+					<img src="images/hoofd.png" alt="account">
+				</li>
+				<li>
+					<img src="images/hartje.png" alt="wensenlijst">0
+				</li>
+				<li>
+					<img src="images/tas.png" alt="winkelmand">1
+				</li>	
+			</ul>
+		
+		<ol id="menu" >
+			<li><p>MENU</p></li>
+			<li>
+				<button id="dichtknop">X</button>
+			</li>
+			<li><p>STARTPAGINA</p></li>
+			<li><p>THEMA'S</p></li>
+			<li><p>WINKELEN OP</p></li>
+			<li><p>BELANGSTELLING</p></li>
+			<li><p>AANBIEDINGEN EN UITVERKOOP</p></li>
+			<li><p>EXCLUSIEVE ITEMS</p></li>
+			<li><p>ONDERSTEUNING</p></li>
+			<li><img src="images/hoofd.png" alt="Mijn accoiunt"><p>Mijn account</p></li>
+			<li><img src="images/hartje.png" alt="Mijn verlanglijst"><p>Mijn verlanglijst</p></li>
+			<li><img src="images/tas.png" alt=""><p>Mijn tas</p></li>
+			<li><p>Regio wijzigen</p></li>
+			<li><p>Over ons</p></li>
+			<li><p>VIP</p></li>
+			<li><p>store zoeken</p></li>
+			<li><p>LEGO LIFE</p></li>
+		</ol>
+		</nav>
+	</header>
 
-	</nav>
-
-</header>
+<header>
 	<section>
-		<img src="images/links.svg" alt="links">
-		<img src="images/bezorging.png" alt="bezorging">
-		<p>GRATIS bezorging bij elke bestelling vanaf €55<a href="product.html">meer info</a></p>
-
-		<img src="images/rechts.svg" alt="rechts">
+		<img src="images/bezorging.png" alt="bezorger">
+		<h3>GRATIS bezorging bij elke bestelling vanaf €55!
+		<a href="">Meer info</a>
+		</h3>
 	</section>
+</header>
 
+<main>
+	<article id="eerste">
+		<img src="images/achtergrond.jpeg" alt="kerstaanbieding">
+	    <h3>Vervroegde toegang voor VIP's</h3>
+	    <p>Voeg het nieuwe Elf Clubhuis toe aan je collectie, vanaf 23-09-2020</p>
+	    <a href="product.html"><p>Nu winkelen </p><img src="images/pijl.svg" alt="pijl"></a>
+	    <a href=""><p>Registreren </p><img src="images/pijl.svg" alt="pijl"></a>
+    </article>
+    <table>
+    	<tr>
+    		<td><img src="images/nieuw.jpeg" alt="nieuw">Nieuw</td>
+    		<td><img src="images/exclusief.jpeg" alt="exclusief">Exclusief</td>
+    		<td><img src="images/aanbiedingen.jpeg" alt="aanbiedingen">Aanbiedingen</td>
+    		<td><img src="images/halloween.png" alt="halloween">Halloween</td>
+    		<td><img src="images/seizoen.png" alt="seizoensgebonden">Seizoens items</td>
+    		<td><img src="images/education.png" alt="education">Lego Education</td>
+    		<td><img src="images/pickabrick.jpeg" alt="pick a brick">Pick a Brick</td>
+    		<td><img src="images/vip.jpeg" alt="VIP">VIP</td>
+    	</tr>
+    </table>
+    <div>
+		<h1>Cadeaus voor halloween</h1>
+   		<article>
+   
+	    	<img src="images/brickhead.jpeg" alt="brickhead halloween editie">
+	    	 <h2>Wek een legende tot leven</h2>
+	    	<p>Voeg de nieuwe frankenstein brickhead aan je collectie toe.</p>
+	    	<a href="">Nu winkelen</a>
+   		</article>
 
-<article>
-	<img src="images/achtergrond2.png" alt="grootplaatje">
-	<h1>Bekijk meer </h1>
-	<p>om te ontdekken wat de aanbieding is</p>
-	<a href="product.html">Nu winkelen <img src="images/rechts.svg" alt="rechts"></a>
-	<a href="product.html">Registreren <img src="images/rechts.svg" alt="rechts"></a>
-	
-</article>
+    <article>
+    			<img src="images/plezier.jpeg" alt="halloween aanbiedingen"> 
+    	    	<h2>Griezelig veel plezier</h2>
+    	    	<p>voeg nu toe aan de collectie.</p>
+    	    	<a href="product.html">Nu winkelen</a>
+    </article>
+    </div>
+</main>
 
-	<table>	
-		<tr>
-			<td>Nieuw</td>
-			<td>LEGO ideas</td>
-			<td>Exclusief</td>
-			<td>Uit handel</td>
-		</tr>
-		<tr>
-			<td>Aanbiedingen</td>
-			<td>Pick a brick</td>		
-			<td>Architecture</td>
-			<td>VIP</td>
-		</tr>
-	</table>
+<footer>
+	<article>
+		<h2>Schrijf je in voor de nieuwsbrief:</h2>
 
+		<form action="subscribe.php">
+			<input type="email" name="email"/>
+			<input type="submit" value="versturen">
+		</form>
+	</article>
+</footer>
+
+<script src="scripts/script.js"></script>
 
 </body>
 </html>
